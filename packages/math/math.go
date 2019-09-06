@@ -1,5 +1,6 @@
 package math
 
+// Finds the average of a slice of numbers
 func Average(xs []float64) float64 {
 	total := float64(0)
 
