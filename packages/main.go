@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"github.com/tajud99n/web_dev/packages/math"
 )
 
 func main() {
@@ -40,4 +41,8 @@ func main() {
 
 	// func ToUpper(s string) string
 	fmt.Println(strings.ToUpper("test")) // "TEST"
+
+	xs := []float64{1,2,3,4}
+	avg := math.Average(xs)
+	fmt.Println(avg) // 2.5
 }
