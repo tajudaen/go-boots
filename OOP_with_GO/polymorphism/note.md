@@ -1,0 +1,1 @@
+In implementing polymorphism in GO with interfaces or working with interfaces generally it is good practice to allow the consuming package to define the interface when working with third party libraries.
