@@ -1,0 +1,1 @@
+-When a new variable is initialized in Go, it always has a ZERO VALUE
